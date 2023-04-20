@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Oswald:wght@300&family=Poppins:wght@600&family=Ubuntu:wght@400&display=swap");
+
+
+.header-cont{
+  background-color: #212529;
+}
+.container-x {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  width: 100vw;
+  /* height: 100vh; */
+  background-color: #212529;
+}
+.container-y {
+  display: flex;
+  justify-content: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  width: 100vw;
+  padding: 30px;
+
+  background-color: #3d4349;
+}
+.container-y .col{
+  padding: 40px;
+  margin: 10px;
+}
+h1 {
+  margin: 0;
+  color: #f2f2f0;
+  font-size: 5em;
+}
+.details-block1 {
+  border: 3px solid #f2f2f0;
+  background-color: #0443a6;
+}
+
+.details-block2 {
+  padding: 10px;
+  color: #0443a6;
+  border-radius: 0 0 30px 30px;
+  background-color: #f2f2f0;
+}
+.button-panel {
+  border-radius: 8px;
+  background-color: #3D4349;
+}
+.btn-block {
+  width: 100%;
+}
+
+.color-1 {
+  color: #f2f2f0;
+  background-color: #3071da;
+  transition: 0.3s;
+}
+.color-1:hover {
+  color: #f2f2f0;
+  background-color: #1c50a3;
+}
+.color-2 {
+  color: #f2f2f0;
+  background-color: #325477;
+  transition: 0.3s;
+}
+.color-2:hover {
+  color: #f2f2f0;
+  background-color: #223950;
+}
+.color-3 {
+  color: #f2f2f0;
+  background-color: #8f8990;
+  transition: 0.3s;
+}
+.color-3:hover {
+  color: #f2f2f0;
+  background-color: #767177;
+}
+.color-4 {
+  color: #f2f2f0;
+  background-color: #2ba5aa;
+  transition: 0.3s;
+}
+.color-4:hover {
+  color: #f2f2f0;
+  background-color: #22888b;
+}
+.color-5 {
+  color: #f2f2f0;
+  background-color: #093568;
+  transition: 0.3s;
+}
+.color-5:hover {
+  color: #f2f2f0;
+  background-color: #041d39;
+}
+.button-panel {
+  padding: 1%;
+}
+
+button{
+    box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.7);
+    -webkit-box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.7);
+    -moz-box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.7);}
+
+.button-panel .row,
+.col {
+  margin: 0;
+}
+
+@media only screen and (max-width: 1125px) {
+  .button-panel {
+    padding: 3%;
+  }
+  .col {
+    padding: 1%;
+  }
+}
+
+
+.form-check-input:checked{
+  background-color: #093568;
+  border-color: #093568;
+}

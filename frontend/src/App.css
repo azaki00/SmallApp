@@ -1,0 +1,33 @@
+nav{
+    width: 100vw;
+    background: #ACBFDD;
+    padding: 10px;
+}
+footer{
+    position: fixed;
+    left: 50%;
+    bottom: 1px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    background-color: #ACBFDD;
+    width: 100%;
+    text-align: center;
+}
+
+.app{
+    margin: 0;
+}
+
+nav a{
+    font-family: "Oswald", sans-serif;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #ACBFDD;
+    transition: .3s;
+}
+
+nav a:hover{
+    background-color: #0443A6;
+    color: #fff;
+}
